@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa0d6600-f1d0-4e71-9d03-7a6cc4219019" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="package.json" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/层帝/博客云架构/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\层帝\博客云架构\m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XdutT693dSgh7AWjmy1Rz0h9Vt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nm‐service‐manage‐cms" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\code\nm-server-manage-cms\src\main\java" />
+      <recent name="D:\idea\code\nm-server-manage-cms\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CmsPageRepositoryTest.testFindAll">
+    <configuration name="CmsPageRepositoryTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nm-service-manage-cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ningmeng.manage_cms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ningmeng.manage_cms" />
+      <option name="MAIN_CLASS_NAME" value="com.ningmeng.manage_cms.CmsPageRepositoryTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageCmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nm-service-manage-cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ningmeng.manage_cms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.manage_cms.ManageCmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CmsPageRepositoryTest.testFindAll" />
+        <item itemvalue="Spring Boot.ManageCmsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa0d6600-f1d0-4e71-9d03-7a6cc4219019" name="Default Changelist" comment="" />
+      <created>1581388506339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581388506339</updated>
+      <workItem from="1581388509707" duration="6075000" />
+      <workItem from="1581398916408" duration="1729000" />
+      <workItem from="1581474265416" duration="5610000" />
+      <workItem from="1581485669185" duration="1143000" />
+      <workItem from="1581506775728" duration="5482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="521" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581474671812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="521" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1581474671812" />
+    <state x="1015" y="110" key="#com.intellij.ide.util.MemberChooser" timestamp="1581510942658">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1015" y="110" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581510942658" />
+    <state x="441" y="53" key="FileChooserDialogImpl" timestamp="1581508147756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="441" y="53" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581508147756" />
+    <state width="1072" height="316" key="GridCell.Tab.0.bottom" timestamp="1581512473329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1072" height="316" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581512473329" />
+    <state width="1072" height="316" key="GridCell.Tab.0.center" timestamp="1581512473329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1072" height="316" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581512473329" />
+    <state width="1072" height="316" key="GridCell.Tab.0.left" timestamp="1581512473329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1072" height="316" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581512473329" />
+    <state width="1072" height="316" key="GridCell.Tab.0.right" timestamp="1581512473329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1072" height="316" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581512473329" />
+    <state width="1073" height="316" key="GridCell.Tab.1.bottom" timestamp="1581512435500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="316" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581512435500" />
+    <state width="1073" height="316" key="GridCell.Tab.1.center" timestamp="1581512435500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="316" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581512435500" />
+    <state width="1073" height="316" key="GridCell.Tab.1.left" timestamp="1581512435500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="316" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581512435500" />
+    <state width="1073" height="316" key="GridCell.Tab.1.right" timestamp="1581512435500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1073" height="316" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581512435500" />
+    <state x="106" y="232" key="NewModule_or_Project.wizard" timestamp="1581478658728">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="106" y="232" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1581478658728" />
+    <state x="498" y="0" key="SettingsEditor" timestamp="1581508253096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581508253096" />
+    <state x="922" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581565583191">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="922" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581565583191" />
+    <state x="71" y="0" key="new project wizard" timestamp="1581478523316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="71" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581478523316" />
+    <state x="489" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1581510708588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="489" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581510708588" />
+  </component>
+</project>
