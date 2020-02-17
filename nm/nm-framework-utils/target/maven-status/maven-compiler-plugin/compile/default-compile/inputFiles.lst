@@ -1,13 +1,13 @@
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\GenerateOrderNum.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\ZipUtil.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\VideoUtil.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\CookieUtil.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\HttpClient.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\XcOauth2Util.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\Oauth2Util.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\Snowflake.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\Mp4VideoUtil.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\BCryptUtil.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\SnowflakeIdWorker.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\MD5Util.java
-D:\idea\code\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\HlsVideoUtil.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\CookieUtil.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\GenerateOrderNum.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\XcOauth2Util.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\SnowflakeIdWorker.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\ZipUtil.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\HlsVideoUtil.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\Snowflake.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\Oauth2Util.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\HttpClient.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\MD5Util.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\Mp4VideoUtil.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\VideoUtil.java
+E:\idea\IntelliJ IDEA 2017.1.2\1\nm-framework-utils\src\main\java\com\ningmeng\framework\utils\BCryptUtil.java
