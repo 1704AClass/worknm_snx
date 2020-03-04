@@ -1,6 +1,6 @@
 package com.ningmeng.test;
 
-import com.ningmeng.test.config.RabbitmqConfig;
+import com.ningmeng.test.config.RabbitConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
- * Created by 1 on 2020/2/14.
+ * Created by BJDGZJD on 14/2/2020.
  */
 @SpringBootTest
 @RunWith(SpringRunner.class)
@@ -27,8 +27,9 @@ public class rabbitmq {
              * 第二个参数：路由Key
              * 第三个参数：发送的信息
              */
-            rabbitTemplate.convertAndSend(RabbitmqConfig.EXCHANGE_TOPICS_INFORM,"inform.sms.email",message);
+            rabbitTemplate.convertAndSend(RabbitConfig.EXCHANGE_TOPICS_INFORM,"inform.sms.email",message);
             System.out.println("SendMessageis:'"+message+"'");
         }
     }
+
 }

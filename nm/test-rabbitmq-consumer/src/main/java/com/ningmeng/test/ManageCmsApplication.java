@@ -5,16 +5,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * Created by 1 on 2020/2/11.
+ * Created by BJDGZJD on 10/2/2020.
  */
 @SpringBootApplication
+//扫描类
 @ComponentScan(basePackages = {"com.ningmeng.test"})
-//扫描common工程下的类
 @ComponentScan(basePackages = {"com.ningmeng.framework"})
 public class ManageCmsApplication {
-
-   public static void main(String[] args){
-       SpringApplication.run(ManageCmsApplication.class,args);
-   }
-
+    public static void main(String[]args){
+        SpringApplication.run(ManageCmsApplication.class,args);
+    }
 }

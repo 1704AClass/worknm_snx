@@ -1,2 +1,6 @@
-E:\idea\IntelliJ IDEA 2017.1.2\1\nm-service-api\src\main\java\com\ningmeng\api\config\Swagger2Configuration.java
-E:\idea\IntelliJ IDEA 2017.1.2\1\nm-service-api\src\main\java\com\ningmeng\api\cmsapi\CmsPageControllerApi.java
+D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\course\SysDicthinaryControllerApi.java
+D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\filesystem\FileSystemControllerApi.java
+D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\config\Swagger2Configuration.java
+D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\course\CourseControllerApi.java
+D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\cmsApi\CmsPageControllerApi.java
+D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\course\CategoryControllerApi.java

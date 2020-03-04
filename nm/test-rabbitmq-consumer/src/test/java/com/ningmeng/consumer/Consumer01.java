@@ -1,79 +1,72 @@
 package com.ningmeng.consumer;
 
-
 import com.rabbitmq.client.*;
 
 import java.io.IOException;
 
 /**
- * Created by 1 on 2020/2/13.
+ * Created by BJDGZJD on 13/2/2020.
  */
-public class Consumer01 {
-
-    //队列名称
-    private static final String QUEUE = "helloworld";
-    //psvm  快捷键
+public class consumer01 {
+    private static final String QUEUE="queue_inform_email";
     public static void main(String[] args) {
-
         try {
-            //创建连接工厂
+            //创建初始化连接工厂
             ConnectionFactory factory = new ConnectionFactory();
             factory.setHost("127.0.0.1");
-            factory.setPort(5672);//浏览器页面  15672 后台5672
+            //浏览器管理页面使用端口：15672 后台使用端口:5672
+            factory.setPort(5672);
             factory.setUsername("guest");
             factory.setPassword("guest");
-            factory.setVirtualHost("/");//rabbimq默认虚拟机名称为 / ,虚拟机相当于一个独立的mq服务
+            factory.setVirtualHost("/");
+            //rabbitmq默认虚拟机名称为“/”，虚拟机相当于一个独立的mq服务器
 
-            //创建于rabbitmq服务的TCP连接
+            //创建连接
             Connection connection = factory.newConnection();
-            //创建信道  每个连接可以创建多个通道  每个通道代表一个会话任务
+            //生产者和Broker建立通道。（信道）
+            // 每个连接可以创建多个通道，每个通道代表一个会话任务
             Channel channel = connection.createChannel();
 
-            /**
-             * 声明队列
-             * String queue  队列名称
-             * boolean durable   是否持久化  如果rabbitmq重启  消息会不会丢失
-             * boolean exclusive  (互斥)队列是否独占此连接
-             * boolean autoDelete  队列不再使用时  是否自动删除此队列
-             *Map<String, Object> arguments  队列参数,设置队列存活时间等等
-             * 如果 exclusive 和 autoDelete都为 true 就是一个临时队列
-             */
             channel.queueDeclare(QUEUE,true,false,false,null);
+
             //消费消息方法
             Consumer consumer = new DefaultConsumer(channel){
                 /**
-                 * 消费者接收消息调用此方法
-                 * @param consumerTag  消费者的标签  在channel.basicConsue()去指定
-                 * @param envelope  消息包的内容  可从中获取消息id  消息routingkey  交换机
-                 * @param properties
-                 * @param body
+                 *
+                 * @param consumerTag 消费者的标签，在channel.basicConsume()去指定
+                 * @param envelope 消息包的内容，可从中获取消息id，消息routingkey，交换机，消息和重传标志 (收到消息失败后是否需要重新发送)
+                 * @param properties 属性参数
+                 * @param body 消息主体
                  * @throws IOException
                  */
-                @Override
-                public void handleDelivery(String consumerTag, Envelope envelope,
-                                           AMQP.BasicProperties properties, byte[] body) throws IOException {
-                    //获取交换机
-                    String exchange = envelope.getExchange();
-                    //路由key
-                    String routingKey = envelope.getRoutingKey();
-                    //消息id
-                    long deliveryTag = envelope.getDeliveryTag();
-                    //消息内容
-                    String str = new String(body, "utf-8");
-                    System.out.println("receive message.."+ str);
+                public void handleDelivery(String consumerTag,
+                                           Envelope envelope, AMQP.BasicProperties properties,
+                                           byte[] body) throws IOException {
+                        //交换机
+                        String exchange = envelope.getExchange();
+                        String rouKey = envelope.getRoutingKey();
+                        //消息id
+                        long deliveryTag=envelope.getDeliveryTag();
+                        String str = new String(body,"utf-8");
+                        System.out.println("receivemessage111.."+str);
                 }
+
             };
+
+
+            //监听队列
             /**
-             * 监听队列
-             * String queue,队列名称
-             * boolean autoAck, 是否自动回复  设置true表示接受到自动向mq回复接收到了
-             * Consumer callback  消息消费方法  消费者接收到消息调用此方法
+             *监听队列String queue,booleanautoAck,Consumercallback
+             *参数明细
+             *1、队列名称
+             *2、是否自动回复，设置为true为表示消息接收到自动向mq回复接收到了，
+             * mq接收到回复会删除消息，设置为false则需要手动回复
+             *3、消费消息的方法，消费者接收到息消后调用此方法
              */
             channel.basicConsume(QUEUE,true,consumer);
-
-
-        } catch (Exception e) {
+        }catch (Exception e){
             e.printStackTrace();
         }
+
     }
 }

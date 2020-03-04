@@ -9,6 +9,7 @@ import lombok.ToString;
 
 @ToString
 public enum MediaCode implements ResultCode {
+    MERGE_FILE_CREATEFAIL(false,22006,"创建文件失败"),
     UPLOAD_FILE_REGISTER_FAIL(false,22001,"上传文件在系统注册失败，请刷新页面重试！"),
     UPLOAD_FILE_REGISTER_EXIST(false,22002,"上传文件在系统已存在！"),
     CHUNK_FILE_EXIST_CHECK(true,22003,"分块文件在系统已存在！"),

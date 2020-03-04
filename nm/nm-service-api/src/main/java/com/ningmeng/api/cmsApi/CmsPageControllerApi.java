@@ -1,6 +1,7 @@
-package com.ningmeng.api.cmsapi;
+package com.ningmeng.api.cmsApi;
 
 import com.ningmeng.framework.domain.cms.CmsPage;
+import com.ningmeng.framework.domain.cms.CmsPostPageResult;
 import com.ningmeng.framework.domain.cms.request.QueryPageRequest;
 import com.ningmeng.framework.domain.cms.response.CmsPageResult;
 import com.ningmeng.framework.model.response.QueryResponseResult;
@@ -10,33 +11,38 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 
-/**
- * Created by 1 on 2020/2/11.
- * 有两个作用：1.约束Controller 2向外发布接口使用
+/*
+
  */
-@Api(value = "cms页面管理接口",description = "cms页面管理接口，提供页面的增、删、改、查")
+@Api(value = "CMS页面管理接口",description = "cms页面管理增删改查")
 public interface CmsPageControllerApi {
 
-    @ApiOperation("分页查询页面列表")//描述一个类的一个方法，或者说一个接口
-    @ApiImplicitParams({@ApiImplicitParam(name = "page",value = "页码",required = true,paramType = "path",dataType = "int",defaultValue = "1"),
-            @ApiImplicitParam(name = "size",value = "每页记录数",required = true,paramType = "path",dataType = "int",defaultValue = "10")
+    @ApiOperation("分页查询页面列表")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="page",defaultValue = "1",required = true,value = "页数"),
+            @ApiImplicitParam(name="size",defaultValue = "10",required = true,value = "查询数")
     })
-    //QueryResponseResult 自定义返回对象  QueryPageRequest自定义参数对象
     public QueryResponseResult findList(int page, int size, QueryPageRequest queryPageRequest);
 
     @ApiOperation("添加页面")
     public CmsPageResult add(CmsPage cmsPage);
 
-    @ApiOperation("通过id查询页面")
-    public CmsPage findOne(String id);
+    @ApiOperation("通过ID查询页面")
+    public CmsPage findById(String id);
 
     @ApiOperation("修改页面")
-    public ResponseResult update(CmsPage cmsPage);
+    public CmsPageResult edit(String id,CmsPage cmsPage);
 
-    @ApiOperation("删除页面")
+    @ApiOperation("通过ID删除页面")
     public ResponseResult delete(String id);
 
-    @ApiOperation(("发布页面"))
+    @ApiOperation("发布页面")
     public ResponseResult post(String pageId);
+
+    @ApiOperation("保存页面")
+    public CmsPageResult save(CmsPage cmsPage);
+
+    @ApiOperation("一键发布页面")
+    public CmsPostPageResult postPageQuick(CmsPage cmsPage);
 
 }
